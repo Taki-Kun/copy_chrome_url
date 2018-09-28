@@ -118,9 +118,9 @@ end run</string>
 	<key>workflowMetaData</key>
 	<dict>
 		<key>serviceApplicationBundleID</key>
-		<string></string>
+		<string>com.google.Chrome</string>
 		<key>serviceApplicationPath</key>
-		<string></string>
+		<string>/Applications/Google Chrome.app</string>
 		<key>serviceInputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceOutputTypeIdentifier</key>
