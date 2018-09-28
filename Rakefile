@@ -1,0 +1,8 @@
+desc "Install the workflow to your services folder"
+task :install do
+  puts "Copying copy_chrome_url.workflow to your services folder"
+  output = "~/Library/Services"
+  system "mkdir -p #{output}"
+  system "cp -r *.workflow #{output}"
+  puts "Done"
+end
